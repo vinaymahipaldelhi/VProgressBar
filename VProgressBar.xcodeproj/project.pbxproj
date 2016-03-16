@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBB1057E1C9985630083001A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB1057D1C9985630083001A /* main.m */; };
+		BBB105811C9985630083001A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB105801C9985630083001A /* AppDelegate.m */; };
+		BBB105841C9985630083001A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB105831C9985630083001A /* ViewController.m */; };
+		BBB105871C9985630083001A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB105851C9985630083001A /* Main.storyboard */; };
+		BBB105891C9985640083001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB105881C9985640083001A /* Assets.xcassets */; };
+		BBB1058C1C9985640083001A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB1058A1C9985640083001A /* LaunchScreen.storyboard */; };
+		BBB105971C9985640083001A /* VProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB105961C9985640083001A /* VProgressBarTests.m */; };
+		BBB105A21C9985640083001A /* VProgressBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB105A11C9985640083001A /* VProgressBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBB105931C9985640083001A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB105711C9985630083001A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB105781C9985630083001A;
+			remoteInfo = VProgressBar;
+		};
+		BBB1059E1C9985640083001A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB105711C9985630083001A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB105781C9985630083001A;
+			remoteInfo = VProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBB105791C9985630083001A /* VProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB1057D1C9985630083001A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBB1057F1C9985630083001A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBB105801C9985630083001A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBB105821C9985630083001A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBB105831C9985630083001A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBB105861C9985630083001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBB105881C9985640083001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBB1058B1C9985640083001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBB1058D1C9985640083001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB105921C9985640083001A /* VProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB105961C9985640083001A /* VProgressBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VProgressBarTests.m; sourceTree = "<group>"; };
+		BBB105981C9985640083001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB1059D1C9985640083001A /* VProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB105A11C9985640083001A /* VProgressBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VProgressBarUITests.m; sourceTree = "<group>"; };
+		BBB105A31C9985640083001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBB105761C9985630083001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB1058F1C9985640083001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB1059A1C9985640083001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB105701C9985630083001A = {
+			isa = PBXGroup;
+			children = (
+				BBB1057B1C9985630083001A /* VProgressBar */,
+				BBB105951C9985640083001A /* VProgressBarTests */,
+				BBB105A01C9985640083001A /* VProgressBarUITests */,
+				BBB1057A1C9985630083001A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBB1057A1C9985630083001A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBB105791C9985630083001A /* VProgressBar.app */,
+				BBB105921C9985640083001A /* VProgressBarTests.xctest */,
+				BBB1059D1C9985640083001A /* VProgressBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB1057B1C9985630083001A /* VProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				BBB1057F1C9985630083001A /* AppDelegate.h */,
+				BBB105801C9985630083001A /* AppDelegate.m */,
+				BBB105821C9985630083001A /* ViewController.h */,
+				BBB105831C9985630083001A /* ViewController.m */,
+				BBB105851C9985630083001A /* Main.storyboard */,
+				BBB105881C9985640083001A /* Assets.xcassets */,
+				BBB1058A1C9985640083001A /* LaunchScreen.storyboard */,
+				BBB1058D1C9985640083001A /* Info.plist */,
+				BBB1057C1C9985630083001A /* Supporting Files */,
+			);
+			path = VProgressBar;
+			sourceTree = "<group>";
+		};
+		BBB1057C1C9985630083001A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBB1057D1C9985630083001A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB105951C9985640083001A /* VProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB105961C9985640083001A /* VProgressBarTests.m */,
+				BBB105981C9985640083001A /* Info.plist */,
+			);
+			path = VProgressBarTests;
+			sourceTree = "<group>";
+		};
+		BBB105A01C9985640083001A /* VProgressBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB105A11C9985640083001A /* VProgressBarUITests.m */,
+				BBB105A31C9985640083001A /* Info.plist */,
+			);
+			path = VProgressBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBB105781C9985630083001A /* VProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB105A61C9985640083001A /* Build configuration list for PBXNativeTarget "VProgressBar" */;
+			buildPhases = (
+				BBB105751C9985630083001A /* Sources */,
+				BBB105761C9985630083001A /* Frameworks */,
+				BBB105771C9985630083001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VProgressBar;
+			productName = VProgressBar;
+			productReference = BBB105791C9985630083001A /* VProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBB105911C9985640083001A /* VProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB105A91C9985640083001A /* Build configuration list for PBXNativeTarget "VProgressBarTests" */;
+			buildPhases = (
+				BBB1058E1C9985640083001A /* Sources */,
+				BBB1058F1C9985640083001A /* Frameworks */,
+				BBB105901C9985640083001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB105941C9985640083001A /* PBXTargetDependency */,
+			);
+			name = VProgressBarTests;
+			productName = VProgressBarTests;
+			productReference = BBB105921C9985640083001A /* VProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBB1059C1C9985640083001A /* VProgressBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB105AC1C9985640083001A /* Build configuration list for PBXNativeTarget "VProgressBarUITests" */;
+			buildPhases = (
+				BBB105991C9985640083001A /* Sources */,
+				BBB1059A1C9985640083001A /* Frameworks */,
+				BBB1059B1C9985640083001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBB1059F1C9985640083001A /* PBXTargetDependency */,
+			);
+			name = VProgressBarUITests;
+			productName = VProgressBarUITests;
+			productReference = BBB1059D1C9985640083001A /* VProgressBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB105711C9985630083001A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vinay Mahipal";
+				TargetAttributes = {
+					BBB105781C9985630083001A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BBB105911C9985640083001A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BBB105781C9985630083001A;
+					};
+					BBB1059C1C9985640083001A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BBB105781C9985630083001A;
+					};
+				};
+			};
+			buildConfigurationList = BBB105741C9985630083001A /* Build configuration list for PBXProject "VProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBB105701C9985630083001A;
+			productRefGroup = BBB1057A1C9985630083001A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBB105781C9985630083001A /* VProgressBar */,
+				BBB105911C9985640083001A /* VProgressBarTests */,
+				BBB1059C1C9985640083001A /* VProgressBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBB105771C9985630083001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB1058C1C9985640083001A /* LaunchScreen.storyboard in Resources */,
+				BBB105891C9985640083001A /* Assets.xcassets in Resources */,
+				BBB105871C9985630083001A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB105901C9985640083001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB1059B1C9985640083001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBB105751C9985630083001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB105841C9985630083001A /* ViewController.m in Sources */,
+				BBB105811C9985630083001A /* AppDelegate.m in Sources */,
+				BBB1057E1C9985630083001A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB1058E1C9985640083001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB105971C9985640083001A /* VProgressBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB105991C9985640083001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB105A21C9985640083001A /* VProgressBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBB105941C9985640083001A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB105781C9985630083001A /* VProgressBar */;
+			targetProxy = BBB105931C9985640083001A /* PBXContainerItemProxy */;
+		};
+		BBB1059F1C9985640083001A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB105781C9985630083001A /* VProgressBar */;
+			targetProxy = BBB1059E1C9985640083001A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBB105851C9985630083001A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB105861C9985630083001A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBB1058A1C9985640083001A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB1058B1C9985640083001A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBB105A41C9985640083001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBB105A51C9985640083001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBB105A71C9985640083001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VinayMahipal.VProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBB105A81C9985640083001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VinayMahipal.VProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBB105AA1C9985640083001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VinayMahipal.VProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VProgressBar.app/VProgressBar";
+			};
+			name = Debug;
+		};
+		BBB105AB1C9985640083001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VinayMahipal.VProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VProgressBar.app/VProgressBar";
+			};
+			name = Release;
+		};
+		BBB105AD1C9985640083001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VinayMahipal.VProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VProgressBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBB105AE1C9985640083001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VinayMahipal.VProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VProgressBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBB105741C9985630083001A /* Build configuration list for PBXProject "VProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB105A41C9985640083001A /* Debug */,
+				BBB105A51C9985640083001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB105A61C9985640083001A /* Build configuration list for PBXNativeTarget "VProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB105A71C9985640083001A /* Debug */,
+				BBB105A81C9985640083001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBB105A91C9985640083001A /* Build configuration list for PBXNativeTarget "VProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB105AA1C9985640083001A /* Debug */,
+				BBB105AB1C9985640083001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBB105AC1C9985640083001A /* Build configuration list for PBXNativeTarget "VProgressBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB105AD1C9985640083001A /* Debug */,
+				BBB105AE1C9985640083001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBB105711C9985630083001A /* Project object */;
+}
